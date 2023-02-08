@@ -20,7 +20,7 @@ from django.conf import settings
 
 urlpatterns = [
     path('admin_quencilio_in/', admin.site.urls),
-    path('admin/',include('admin_honeypot.urls',namespace='admin_honeypot')),
+    # path('admin/',include('admin_honeypot.urls',namespace='admin_honeypot')),
     path('',include('games.urls')),
 ]
 

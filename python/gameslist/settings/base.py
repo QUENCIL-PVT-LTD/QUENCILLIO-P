@@ -14,7 +14,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'games',
-    'admin_honeypot',
+    # 'admin_honeypot',
 ]
 
 MIDDLEWARE = [
