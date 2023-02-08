@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Changa:wght@400;500;600;700;800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/*--footer--*/
+.footer{
+	background:rgb(20, 20, 20);
+	padding:4em 0 0 0; 
+}
+.ftr-grid h3,.ftr-info h3{
+  font-size: 2.3em;
+  margin-bottom: 0.8em;
+  color: white;
+  margin-left: 40px;
+}
+.ftr-grid ul li{
+	display:block;
+}
+.ftr-grid ul li a{
+	display:block;
+	color:#fff;
+	padding:4px 0;
+	text-decoration:none;
+	font-size:0.85em;
+}
+.social{
+  gap: 32px;
+    display: flex;
+    padding: 8px 36px;
+    padding-right: 32px;
+}
+.ftr-grid ul li a:hover{
+	color:#f43c60;
+}
+.ftr-info p{
+	font-size:0.85em;
+	line-height:1.7em;
+	color:#fff;
+	margin-top:2em;
+}
+.copywrite {
+	padding:2em 0;
+	background:#333;
+}
+.copywrite p {
+  color: #FFF;
+  font-size: .9em;
+  text-align: center;
+  line-height: 1.8em;
+}
+.copywrite p a{
+	color:#fff;
+}
+/*----------------------
+  Footer Section
+------------------------*/
+
+.footer-section {
+	padding: 18px 0 16px;
+	overflow: hidden;
+	background: #252525;
+}
+
+.footer-menu {
+	list-style: none;
+	float: right;
+}
+
+.footer-menu li {
+	display: inline;
+}
+
+.footer-menu li a {
+	display: inline-block;
+	font-size: 14px;
+	font-weight: 500;
+	color: #aeaeae;
+	margin-left: 30px;
+}
+ 
